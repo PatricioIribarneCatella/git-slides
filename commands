@@ -1,0 +1,4 @@
+pandoc FILE.md -o FILE.pdf // papers
+pandoc FILE.md -t beamer -o FILE.pdf // presentations
+pandoc FILE.md -s -t dzslides -o FILE.html
+
