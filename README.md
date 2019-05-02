@@ -1,8 +1,6 @@
 # Pandoc commands
 
-
-
-### Dependencies
+#### Dependencies
 
 - [pandoc](https://pandoc.org/) 
 
