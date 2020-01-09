@@ -4,7 +4,7 @@ title:
 author:
 - Patricio Iribarne Catella
 date:
-- January 08, 2020
+- 2020
 theme:
 - Copenhagen
 ---
@@ -43,7 +43,7 @@ Initializes an empty local repository
 $ git status
 ```
 
-Show the state of the current branch (changes without a _commit_)
+Shows the state of the current branch (changes without a _commit_)
 
 ------------------
 
@@ -163,7 +163,7 @@ Displays the changes in modified files on the _commit_. If no _commit_ is given 
 
 ------------------
 
-# Extra
+# Bonus
 
 ```bash
 $ git log --oneline --decorate --graph --all --stat
