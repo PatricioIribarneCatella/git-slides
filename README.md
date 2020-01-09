@@ -1,4 +1,6 @@
-# Pandoc commands
+# git-slides
+
+_Git_ slides using **pandoc**
 
 #### Dependencies
 
@@ -35,6 +37,29 @@
 ### HTML slides
 
 ```bash
- $ pandoc FILE.md -s -t dzslides -o FILE.html
+ $ pandoc -i -t revealjs -s -o FILE.html FILE.md -V revealjs-url=https://revealjs.com -V theme=$theme -V transition=$transition
 ```
+
+With `$theme`:
+
+- Black
+- White
+- League
+- Sky
+- Beige
+- Simple
+- Serif
+- Blood
+- Night
+- Moon
+- Solarized
+
+and `$transition`:
+
+- None
+- Fade
+- Slide
+- Convex
+- Concave
+- Zoom
 
